@@ -2,6 +2,7 @@ import "../../App.css";
 import Button from "react-bootstrap/Button";
 import React, { useContext } from "react";
 import {Cart} from "../CartContext";
+
 const ProductList = () => {
   const {productsArr, addToCart} = useContext(Cart);
   
@@ -23,6 +24,8 @@ const ProductList = () => {
       })
       
       }
+       
+      
     </div>
   );
 };

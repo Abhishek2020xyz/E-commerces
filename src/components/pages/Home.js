@@ -1,21 +1,92 @@
+import { Button } from "react-bootstrap";
+
+
+import Table from 'react-bootstrap/Table';
+
+
 function Home(){
     return(
-        <div className="alert alert-primary" role="alert">
-            <p>
-            Lorem ipsum carrots enhanced rebates. Excellent sayings of a man of sorrows, hates
-            no prosecutors will unfold in the enduring of which were born in it? Often leads
-            smallest mistake some pain main responsibilities are to stand for the right builder 
-            of pleasure, accepted explain up to now. , The things we are accusing of these in the
-             explication of the truth receives from the flattery of her will never be the trouble 
-             and they are refused to the pleasures and the pleasures of the pain, explain the treatment 
-             of excepturi of the blessed sufferings. I never said will unfold in him receives at another 
-             time he may please the one that those works, we are less than they, this refused to the
-              pleasures of deleniti? Those are! Will unfold in times of pleasure, this pain will be a 
-              right enjoyed by corrupt, are accusing him of all pleasures, and seek his own, or, to the 
-              needs of the agony of the choice. We hate the fellow.
-            Lorem ipsum dolor, sit amet consectetur rebates. The distinction, that arise from or
-            </p>
+        <div>
+        <div className="header">
+            <h1>The Generics</h1>
+            <button className="latest-album">Get our latest Album</button>
+            <button class="play-btn">►</button>
+            
         </div>
+        
+        <div className="a">
+        
+                 <h1 style={{fontFamily:'Comic Sans MS',textAlign:'center'}}>TOURS</h1>
+                <Table striped bordered hover>
+               <thead>
+                 <tr>
+                   <th>#</th>
+                   <th>Date</th>
+                   <th>Place</th>
+                   <th>Event</th>
+                   <th>Buy</th>
+                 </tr>
+              </thead>
+              <tbody>
+                 <tr>
+                   <td>1</td>
+                   <td>JUL16</td>
+                   <td>DETROIT, MI</td>
+                   <td>DTE ENERGY MUSIC THEATRE</td>
+                   <td><Button variant="info">Buy Tickets</Button></td>
+                 </tr>
+                 <tr>
+                   <td>2</td>
+                   <td>JUL19</td>
+                   <td>TORONTO,ON</td>
+                   <td>
+               BUDWEISER STAGE</td>
+              <td><Button variant="info">Buy Tickets</Button></td>
+        
+                 </tr>
+             <tr>
+                   <td>3</td>
+                   <td>JUL 22</td>
+                   <td>BRISTOW, VA</td>
+                  <td>JIGGY LUBE LIVE</td>
+                   <td><Button variant="info">Buy Tickets</Button></td>
+                  
+                 </tr>
+                 <tr>
+                   <td>4</td>
+                   <td>JUL 22</td>
+                   <td>BRISTOW, VA</td>
+                   <td>JIGGY LUBE LIVE</td>
+                   <td><Button variant="info">Buy Tickets</Button></td>
+                  
+                 </tr>
+                 <tr>
+                   <td>5</td>
+                   <td>AUG 2</td>
+                   <td>LAS VEGAS, NV</td>
+                   <td>
+                 T-MOBILE ARENA</td>
+                 <td><Button variant="info">Buy Tickets</Button></td>
+                  
+                 </tr>
+                 <tr>
+                   <td>6</td>
+                   <td>AUG 7</td>
+                   <td>BRISTOW, VA</td>
+                   <td>JIGGY LUBE LIVE</td>
+                   <td><Button variant="info">Buy Tickets</Button></td>
+                  
+                 </tr>
+               </tbody>
+             </Table>
+                
+            </div>
+        <footer>
+          <div class="footer-title">The Generics</div>
+        </footer>
+        </div>
+        
+              
     )
 }
 export default Home;
