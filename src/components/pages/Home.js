@@ -81,9 +81,9 @@ function Home(){
              </Table>
                 
             </div>
-        <footer>
+        {/* <footer>
           <div class="footer-title">The Generics</div>
-        </footer>
+        </footer> */}
         </div>
         
               

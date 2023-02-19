@@ -7,7 +7,7 @@ function About(){
          <div className="aboutus">
          <h1 className="about">About</h1>
          <div>
-         <img  className="photo"src={Image1}/>  
+         <img  className="photo"src={Image1} alt=""/>  
          <p>Lorem ipsum carrots enhanced rebates. Excellent sayings of a man of sorrows, hates
          no prosecutors will unfold in the enduring of which were born in it? Often leads
          smallest mistake some pain main responsibilities are to stand for the right builder 

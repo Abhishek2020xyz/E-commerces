@@ -1,3 +1,7 @@
+  import youtube from '../../assets/youtube.png';
+  import spotify from '../../assets/spotify.png';
+  import facebook from '../../assets/facebook.png';
+  
   function Footer(){
 return(
     <div>
@@ -6,22 +10,22 @@ return(
 <ul>
     <li>
     <a href="https://www.youtube.com">
-    <img src="./img/6260efc8fc9a9002669d2f4ad9956cc0.jpg"/> 
+    <img src={youtube} alt=""/> 
      </a> 
     </li>
     <li>
     <a href="https://spotify.com">
-    <img src="./img/Spotify Logo.png" />
+    <img src={spotify} alt=""/>
     </a>
     </li>
     <li>
     <a href="https://facebook.com">
-    <img src="./img/Facebook Logo.png" />
+    <img src={facebook} alt=""/>
     </a>  
     </li>
 </ul>
    </div>
-   </div>
+    </div>
 )
 }
 export default Footer;

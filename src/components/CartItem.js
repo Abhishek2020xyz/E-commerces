@@ -37,14 +37,19 @@ export const CartitemList = [
   
   export const productsArr = [
     {
+      id:1, 
+
       title: "Albulm 1",
   
       price: 100,
   
       imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
+      
     },
   
     {
+      id:2,
+
       title: "Albulm 2",
   
       price: 50,
@@ -53,6 +58,8 @@ export const CartitemList = [
     },
   
     {
+      id:3,
+
       title: "Albulm 3",
   
       price: 70,
@@ -61,6 +68,8 @@ export const CartitemList = [
     },
   
     {
+      id:4,
+
       title: "Albulm 4",
   
       price: 100,

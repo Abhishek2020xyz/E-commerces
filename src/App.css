@@ -101,31 +101,33 @@
   background: inherit;
   color: #56CCF2;
 }
+
  
-.footer-title {
-   text-align: center;
+.footer {
+    text-align: center;
    background-color: #56CCF2;
     color: white;
      font-size: 400%; 
     font-weight: bold;
-     margin: 0 auto;
+     margin-top: 7%;
      padding-top: 1%;
-     padding-bottom: 1%;
-       
-}
-.footer{
-  text-align: center;
-    color: white;
-    width: 50%;
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0 auto;
-}
+     padding-bottom: 1%; 
+
+    }
 
 .footer-icons ul {
-  list-style-type: none;
-  display: flex;
+  
+ display: flex;
+ float: right;
+ list-style-type: none;
+    
 }
+.footer-icons li {
+  padding: 10px;
+ 
+  margin: 0px 20px;
+ } 
+
 .the{
   background-color: #00adb5;
     font-size: 60px;
@@ -192,7 +194,7 @@ input{
   border-radius: 50%;
   float: left;
   
-  height: 400px;
+  height: 300px;
   margin: 0 50px;
-   width: 600px;
+   width: 400px;
 } 
