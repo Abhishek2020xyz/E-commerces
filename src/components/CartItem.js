@@ -1,39 +1,39 @@
-export const CartitemList = [
-    {
-      id: 1,
-      title: "Colors",
+// export const CartitemList = [
+//     {
+//       id: 1,
+//       title: "Colors",
   
-      price: 100,
+//       price: 100,
   
-      imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
+//       imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
   
-      quantity: 2,
-    },
+//       quantity: 2,
+//     },
   
-    {
-      id: 2,
+//     {
+//       id: 2,
   
-      title: "Black and white Colors",
+//       title: "Black and white Colors",
   
-      price: 50,
+//       price: 50,
   
-      imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
+//       imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
   
-      quantity: 3,
-    },
+//       quantity: 3,
+//     },
   
-    {
-      id: 3,
+//     {
+//       id: 3,
   
-      title: "Yellow and Black Colors",
+//       title: "Yellow and Black Colors",
   
-      price: 70,
+//       price: 70,
   
-      imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%203.png",
+//       imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%203.png",
   
-      quantity: 1,
-    },
-  ];
+//       quantity: 1,
+//     },
+//   ];
   
   export const productsArr = [
     {
@@ -44,6 +44,7 @@ export const CartitemList = [
       price: 100,
   
       imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
+      
       
     },
   
