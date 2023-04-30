@@ -1,11 +1,9 @@
-import { useState} from "react";
+import {  useState} from "react";
 import Login from "./components/login/Login";
 import Header from "./components/Header";
-
 import CartList from "./components/CartList";
-
-import Home from "./components/pages/Home";
 import Store from "./components/pages/Store";
+import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import ContactUs from "./components/pages/ContactUs"
 // import AuthContext from "./components/store/auth-context";
@@ -30,8 +28,9 @@ const App = () => {
 
       <Routes>
       <Route path="/Login" element={<Login />} />
+      <Route path="store" element={showCart ? <CartList /> : <Store />} />
         <Route path="/" element={<Home />} />
-        <Route path="store" element={showCart ? <CartList /> : <Store />} />
+        
         <Route path="about" element={<About />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="/products/:product_id" element={<ProductDetails />} />

@@ -21,7 +21,7 @@ const ProductList = () => {
           {/* <img src={item.imageUrl} width="50%"/> */}
           <p>Price: ${item.price}</p>
           <Button className="button"
-          onClick={() => addToCart(item)}
+          onClick={() => addToCart(item.id)}
           >Add to Cart</Button>
           </div>
          </div>;
